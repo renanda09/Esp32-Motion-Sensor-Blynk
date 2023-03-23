@@ -1,8 +1,8 @@
 
 #define BLYNK_PRINT Serial
-#define BLYNK_TEMPLATE_ID "TMPLXPDiu0AW"
-#define BLYNK_DEVICE_NAME "MONITORING"
-#define BLYNK_AUTH_TOKEN "F7Nysy0dUI8R6mfX3i2Y66TZcn2UVSAG"
+#define BLYNK_TEMPLATE_ID "   " your templated
+#define BLYNK_DEVICE_NAME "   " Your Device Id
+#define BLYNK_AUTH_TOKEN "  "  your token
 #include <WiFiClient.h>
 #include <ESP8266WiFi.h>
 #include <BlynkSimpleEsp8266.h>
@@ -28,9 +28,9 @@ float ref_voltage = 2.48;
 int adc_value = 0;
 int selectMode;
 
-char auth[] = "F7Nysy0dUI8R6mfX3i2Y66TZcn2UVSAG";    
-char ssid[] = "RTX 4080";
-char pass[] = "1sampai8";
+char auth[] = "   ";    // your token
+char ssid[] = "   ";    // your wifi name
+char pass[] = "   ";   // your wifi pass
 WidgetLED PJU1(V3);
 WidgetLED PJU2(V4);
 WidgetLED PJU3(V5);
